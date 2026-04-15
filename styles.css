@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #202124;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+nav span {
+  margin-right: 20px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+nav .active {
+  color: #1a73e8;
+  border-bottom: 2px solid #1a73e8;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  padding: 30px;
+  gap: 40px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+/* TEXTOS */
+h1 {
+  font-size: 40px;
+}
+
+.developer {
+  color: #1a73e8;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.stats span {
+  display: block;
+  font-size: 12px;
+  color: #5f6368;
+}
+
+/* BUTTON */
+.install {
+  background: #1db954;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* SCREENSHOTS */
+.screenshots {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.screenshots img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* SIDEBAR */
+.app-icon {
+  width: 200px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.rating-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.similar-app {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.similar-app img {
+  width: 40px;
+}
